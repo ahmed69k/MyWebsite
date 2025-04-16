@@ -17,6 +17,8 @@ img{
 nav {
     background-color: #333; /* Dark background */
     padding: 5px 0; /* Padding on top/bottom */
+    margin-left: auto;
+    margin-right: auto;
 }
 
 nav ul {
