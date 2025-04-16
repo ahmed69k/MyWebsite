@@ -1,3 +1,51 @@
 #header {
     text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+img{
+    border-radius: 25%
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: #333; /* Dark background */
+    padding: 5px 0; /* Padding on top/bottom */
+}
+
+nav ul {
+    list-style-type: none; /* Remove bullet points */
+    display: flex; /* Horizontal layout */
+    justify-content: center; /* Center the nav items */
+}
+
+nav ul li {
+    margin: 0 20px; /* Space between items */
+}
+
+nav ul li a {
+    text-decoration: none; /* Remove underline from links */
+    color: white; /* White text */
+    font-size: 18px; /* Font size */
+    transition: color 0.3s ease; /* Smooth color transition */
+}
+
+nav ul li a:hover {
+    color: blueviolet; /* Hover effect color */
+}
+
+#rizzh1{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+img{
+    width: 40%; height: auto; display: block; margin-left: auto; margin-right: auto;
 }
